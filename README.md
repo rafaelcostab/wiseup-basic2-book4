@@ -8,6 +8,7 @@ Website for the presentation of the final project of the **Basic 2** module in t
 - NodeJs v20.2.0
 - [Docusaurus](https://docusaurus.io/)
 - [unDraw](https://undraw.co/)
+- [flaticon](https://www.flaticon.com/)
 
 ## Installation
 Command lines for installation on macOS (Ventura) using [Homebrew](http://brew.sh/)
