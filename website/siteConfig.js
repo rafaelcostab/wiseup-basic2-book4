@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'Wise Up', // Title for your website.
+  tagline: 'How will your jorney be?',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -30,7 +30,7 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
+  projectName: 'Wise Up',
   organizationName: 'facebook',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -48,14 +48,14 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/w3.png',
-  footerIcon: 'img/w3.png',
-  favicon: 'img/w3.png',
+  headerIcon: 'img/wiseup-logo.png',
+  footerIcon: 'img/wiseup-logo.png',
+  favicon: 'img/wiseup-logo.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#06ab02',
-    secondaryColor: '#047701',
+    primaryColor: '#2a004f',
+    secondaryColor: '#00eb84',
   },
 
   /* Custom fonts for website */
@@ -73,11 +73,11 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Rafael Costa`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'dark',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
