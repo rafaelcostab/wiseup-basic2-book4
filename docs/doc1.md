@@ -21,11 +21,11 @@ The exam has two parts:
 
 - Development topics studied.
 
-- The written project should attract the readers  attention! Use **pictures, illustrations, diagrams, tables,     or any visual aid** that can make the book more appealing.
+- The written project should attract the readers  attention! Use **pictures, illustrations, diagrams, tables, or any visual aid** that can make the book more appealing.
 
 - No book is written without research. **Read other books, articles, pieces of news, watch videos,**  
 
-- **or listen to podcasts that may help you develop the topic. Don t forget to list all your sources!** It s     perfectly OK to quote or to refer to other authors, but it s not OK to simply copy other people s work.
+- **or listen to podcasts that may help you develop the topic. Don t forget to list all your sources!** It's perfectly OK to quote or to refer to other authors, but it s not OK to simply copy other people s work.
 
 ## Guidelines Basic 2
 
@@ -33,13 +33,13 @@ The exam has two parts:
 
 The goal of Lesson 2 is to answer the question  How will your journey be? 
 
-In order to draw a conclusion and answer the question, divide the lesson into four parts. For each part, there are questions to answer. **It s important to have all four parts and to have all questions answered in the written project.** Watch the PPD video as many times as you need and read the texts in the book to help you complete the project.
+In order to draw a conclusion and answer the question, divide the lesson into four parts. For each part, there are questions to answer. **It's important to have all four parts and to have all questions answered in the written project.** Watch the PPD video as many times as you need and read the texts in the book to help you complete the project.
 
 ### Part 1: Talk About Yourself
 
 Introduce yourself, talk about your family, your profession, and your personal characteristics. Talk about your routine and the things you like and don t like to do.
 
-**Language items**: simple present, adjectives, likes and dislikes, personal information![](Aspose.Words.3eafb1bf-1766-4aa5-bcce-7fbaf0960334.001.png)
+**Language items**: simple present, adjectives, likes and dislikes, personal information
 
 ### Part 2: Describe a Good Manager
 
@@ -47,13 +47,13 @@ The four important characteristics of a good manager are: organization, teamwork
 
 In your opinion, who is a good manager (someone you know or a famous person)? Why?
 
-**Language items**: simple present, present continuous, personal information![](Aspose.Words.3eafb1bf-1766-4aa5-bcce-7fbaf0960334.002.png)
+**Language items**: simple present, present continuous, personal information
 
 ### Part 3: Talk About a Project
 
 Talk about a project you are currently taking part in (it can be in your personal or professional life): What is the project? What is the final goal? What is currently happening? Who are the people involved? Are they helping each other?
 
-**Language items**: simple present, present continuous, personal information![](Aspose.Words.3eafb1bf-1766-4aa5-bcce-7fbaf0960334.003.png)
+**Language items**: simple present, present continuous, personal information
 
 ### Part 4: Draw a Conclusion
 
@@ -61,7 +61,7 @@ Are you a good manager? Why?
 
 How do you want your journey to be? What are the personal characteristics you want to keep in all your projects?
 
-**Language items**:  simple present, adjectives![](Aspose.Words.3eafb1bf-1766-4aa5-bcce-7fbaf0960334.004.png)
+**Language items**:  simple present, adjectives
 
 When you finish writing, proofread the text. Pay attention to spelling, vocabulary appropriateness, and sentence construction. Also, make sure you answered all questions and included all parts.
 
