@@ -60,13 +60,13 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        <Logo img_src={`${baseUrl}img/undraw_adventure.svg`} />
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
+            {/* <Button href="#try">Try It Out</Button>
             <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('doc2.html')}>Example Link 2</Button> */}
           </PromoSection>
         </div>
       </SplashContainer>
@@ -96,53 +96,9 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <h2>I will talk about myself</h2>
+        <MarkdownBlock></MarkdownBlock>
       </div>
-    );
-
-    const TryOut = () => (
-      <Block id="try">
-        {[
-          {
-            content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
-          },
-        ]}
-      </Block>
-    );
-
-    const Description = () => (
-      <Block background="dark">
-        {[
-          {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
-            imageAlign: 'right',
-            title: 'Description',
-          },
-        ]}
-      </Block>
-    );
-
-    const LearnHow = () => (
-      <Block background="light">
-        {[
-          {
-            content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-            imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
-          },
-        ]}
-      </Block>
     );
 
     const Features = () => (
@@ -159,6 +115,89 @@ class Index extends React.Component {
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
             title: 'Feature Two',
+          },
+        ]}
+      </Block>
+    );
+
+    const AboutMe = () => (
+      <Block background="light">
+        {[
+          {
+            content: "My name is Rafael. I'm 29 years old. I live in Diadema.",
+            image: `${baseUrl}img/undraw_code_review.svg`,
+            imageAlign: 'right',
+            title: 'About me',
+          },
+        ]}
+      </Block>
+    );
+
+    const AboutMyFamily = () => (
+      <Block>
+        {[
+          {
+            content: "My parents live in the countryside, while my sister and niece also live in Diadema and are my neighbors.",
+            image: `${baseUrl}img/family.svg`,
+            imageAlign: 'left',
+            title: 'About my family',
+          },
+        ]}
+      </Block>
+    );
+
+    const AboutMyProfession = () => (
+      <Block background="light">
+        {[
+          {
+            content: "I'm a software developer and I work in Jabaquara. I love my job!",
+            image: `${baseUrl}img/programmer.gif`,
+            imageAlign: 'right',
+            title: 'About my profession',
+          },
+        ]}
+      </Block>
+    );
+
+    const AboutMyPersonalCharacteristics = () => (
+      <Block id="try">
+        {[
+          {
+            content: "I'm a bit shy, but I consider myself an extroverted person.",
+            image: `${baseUrl}img/undraw_mello.svg`,
+            imageAlign: 'left',
+            title: 'About my personal characteristics',
+          },
+        ]}
+      </Block>
+    );
+
+    const AboutMyRoutine = () => (
+      <Block background="light">
+        {[
+          {
+            content: 
+              "I wake up at 6 a.m. every day, I work from home, but twice a week I go to the office. " + 
+              " I drive to work, I start at 8 a.m., we have lunch at noon, I work until 6 p.m. " +
+              "Twice a week, I have English classes at Wise Up.",
+            image: `${baseUrl}img/undraw_operating_system.svg`,
+            imageAlign: 'right',
+            title: 'About my routine',
+          },
+        ]}
+      </Block>
+    );
+
+    const ThingsLikeDislike = () => (
+      <Block>
+        {[
+          {
+            content: 
+              "I like to drink beer with my friends, Sometimes, I like to go to the beach." +
+              "I like to drive, but I hate heavy traffic, it’s very stressful!",
+            image: `${baseUrl}img/undraw_preferences.svg`,
+            imageAlign: 'left',
+            title: 'Things that I like and don’t like to do.',
           },
         ]}
       </Block>
@@ -198,11 +237,14 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
+          {/* <Features /> */}
           <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
+          <AboutMe />
+          <AboutMyFamily />
+          <AboutMyProfession />
+          <AboutMyPersonalCharacteristics />
+          <AboutMyRoutine />
+          <ThingsLikeDislike />
           <Showcase />
         </div>
       </div>

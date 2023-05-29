@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'Wise Up', // Title for your website.
-  tagline: 'How will your jorney be?',
+  tagline: 'Basic 2 | Book 4',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
