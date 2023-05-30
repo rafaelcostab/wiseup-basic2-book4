@@ -96,6 +96,7 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
+        <hr/>
         <h2>I will talk about myself</h2>
         <MarkdownBlock></MarkdownBlock>
       </div>
@@ -125,7 +126,7 @@ class Index extends React.Component {
         {[
           {
             content: "My name is Rafael. I'm 29 years old. I live in Diadema.",
-            image: `${baseUrl}img/undraw_code_review.svg`,
+            image: `${baseUrl}img/undraw_young_and_happy.svg`,
             imageAlign: 'right',
             title: 'About me',
           },
@@ -138,7 +139,7 @@ class Index extends React.Component {
         {[
           {
             content: "My parents live in the countryside, while my sister and niece also live in Diadema and are my neighbors.",
-            image: `${baseUrl}img/family.svg`,
+            image: `${baseUrl}img/undraw_group_selfie.svg`,
             imageAlign: 'left',
             title: 'About my family',
           },
@@ -151,7 +152,7 @@ class Index extends React.Component {
         {[
           {
             content: "I'm a software developer and I work in Jabaquara. I love my job!",
-            image: `${baseUrl}img/programmer.gif`,
+            image: `${baseUrl}img/undraw_programming.svg`,
             imageAlign: 'right',
             title: 'About my profession',
           },
@@ -180,7 +181,7 @@ class Index extends React.Component {
               "I wake up at 6 a.m. every day, I work from home, but twice a week I go to the office. " + 
               " I drive to work, I start at 8 a.m., we have lunch at noon, I work until 6 p.m. " +
               "Twice a week, I have English classes at Wise Up.",
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            image: `${baseUrl}img/undraw_version_control.svg`,
             imageAlign: 'right',
             title: 'About my routine',
           },
@@ -193,14 +194,83 @@ class Index extends React.Component {
         {[
           {
             content: 
-              "I like to drink beer with my friends, Sometimes, I like to go to the beach." +
+              "I like to drink beer with my friends, Sometimes, I like to go to the beach. " +
               "I like to drive, but I hate heavy traffic, it’s very stressful!",
-            image: `${baseUrl}img/undraw_preferences.svg`,
+            image: `${baseUrl}img/undraw_having_fun.svg`,
             imageAlign: 'left',
             title: 'Things that I like and don’t like to do.',
           },
         ]}
       </Block>
+    );
+
+    const FeatureCalloutPart2 = () => (
+      <div
+        className="productShowcaseSection paddingBottom"
+        style={{textAlign: 'center'}}>
+        <hr/>
+        <h2>Describing a good Manager</h2>
+        <MarkdownBlock></MarkdownBlock>
+      </div>
+    );
+
+    const DescribeAGoodManager = () => (
+      <Block background="light">
+        {[
+          {
+            content: 
+              "In my opinion, organization, teamwork, resilience, and assessment are essential skills for managing people. " +
+              " Besides, they possess strong leadership skills, effective communication abilities, and a talent for inspiring and motivating their team.",
+            image: `${baseUrl}img/undraw_product_iteration.svg`,
+            imageAlign: 'right',
+            title: 'Characteristics of a good manager.',
+          },
+        ]}
+      </Block>
+    );
+
+    //todo describe who a good manager
+
+    const MyCurrentlyProject = () => (
+      <Block>
+        {[
+          {
+            content: 
+              "I'm currently focusing on my English classes, with the goal of learning a new language and improving my communication. " + 
+              "The classes are dynamic and enjoyable, and provide support for progress. " + 
+              "However, it's up to me to put in the effort and dedication to make progress. ",
+            image: `${baseUrl}img/undraw_developer_activity.svg`,
+            imageAlign: 'left',
+            title: 'My Current Project',
+          },
+        ]}
+      </Block>
+    );
+
+    const AreYouAGoodManager = () => (
+      <Block background="light">
+        {[
+          {
+            content: 
+              "I consider myself a good manager, aiming to be a positive role model. " + 
+              "An important aspect is allowing people to shine and guiding them when necessary. " +
+              "I am proud of my journey so far, and I work to keep always evolving.",
+            image: `${baseUrl}img/undraw_feeling_proud.svg`,
+            imageAlign: 'right',
+            title: 'Are you a good manager?',
+          },
+        ]}
+      </Block>
+    );
+
+    const FeatureCalloutPart3 = () => (
+      <div
+        className="productShowcaseSection paddingBottom"
+        style={{textAlign: 'center'}}>
+        <hr/>
+        <h2>Draw a Conclusion</h2>
+        <MarkdownBlock></MarkdownBlock>
+      </div>
     );
 
     const Showcase = () => {
@@ -245,7 +315,11 @@ class Index extends React.Component {
           <AboutMyPersonalCharacteristics />
           <AboutMyRoutine />
           <ThingsLikeDislike />
-          <Showcase />
+          {/* <Showcase /> */}
+          <FeatureCalloutPart2 />
+          <DescribeAGoodManager />
+          <MyCurrentlyProject />
+          <AreYouAGoodManager />
         </div>
       </div>
     );
