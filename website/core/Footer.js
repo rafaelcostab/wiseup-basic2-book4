@@ -18,7 +18,7 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="nav-footer" id="footer">
-        <section className="sitemap">
+        {/* <section className="sitemap">
           <a href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
               <img
@@ -59,7 +59,7 @@ class Footer extends React.Component {
           <div>
             <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
+            <a href="https://github.com/rafaelcostab">GitHub</a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}
@@ -93,7 +93,7 @@ class Footer extends React.Component {
               </div>
             )}
           </div>
-        </section>
+        </section> */}
 
         <a
           href="https://opensource.facebook.com/"
@@ -107,7 +107,8 @@ class Footer extends React.Component {
             height="45"
           />
         </a>
-        <section className="copyright">{this.props.config.copyright}</section>
+        
+        <section className="copyright">{this.props.config.copyright} | <a className="copyright" target="_blank" href="https://github.com/rafaelcostab/wiseup-basic2-book4">GitHub</a></section>
       </footer>
     );
   }
